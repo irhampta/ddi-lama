@@ -1,0 +1,449 @@
+CRITICAL - 2024-03-18 14:22:13 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:23:54 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:25:30 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:25:40 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:25:40 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(18.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(18.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:30:58 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:30:58 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(12.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(12.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(12582912)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:32:15 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:32:15 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:09 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:09 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:16 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:16 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:18 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:18 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:24 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:24 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:28 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:28 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:33 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:33 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:41 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:41 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:33:49 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:33:49 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:34:47 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:34:47 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:34:50 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:34:51 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:34:56 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:34:56 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:35:32 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:35:32 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:37:45 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:37:45 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:38:44 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:38:44 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:39:36 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:39:36 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(6.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(6.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:41:48 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:41:48 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(18.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(18.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(18874368)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-03-18 14:44:54 --> Error: Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 218.
+ 1 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-03-18 14:44:54 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\Dev\ddi\vendor\codeigniter4\framework\system\Helpers\number_helper.php(56): format_number(26.0, 2, NULL, Array)
+#1 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(152): number_to_size(26.0, 2)
+#2 C:\Dev\ddi\main\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(27262976)
+#3 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(258): include('C:\\Dev\\ddi\\main...')
+#4 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(Error), 500, 'C:\\Dev\\ddi\\main...')
+#6 C:\Dev\ddi\vendor\codeigniter4\framework\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Dev\ddi\main\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

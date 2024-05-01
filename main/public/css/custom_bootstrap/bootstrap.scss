@@ -1,0 +1,79 @@
+$primary: #1fb7a2;
+$dark: #252c35;
+$light: #F9F9F9;
+
+$body-color: $dark;
+
+$input-btn-padding-x: 1.6rem;
+$input-btn-padding-x-sm: 1.2rem;
+$input-btn-padding-x-lg: 1.8rem;
+
+$btn-border-radius: 8px;
+$btn-border-radius-sm: 6px;
+$btn-border-radius-lg: 10px;
+
+@import "../custom_bootstrap/node_modules/bootstrap/scss/bootstrap";
+
+.fs-7 {
+    font-size: 0.8rem !important;
+    line-height: 0.8rem !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking w  ill make it sticky*/
+    pointer-events: none;
+}
+
+.bg-pattern {
+    background-color: #ffffff;
+    background-image: radial-gradient($secondary .5px, #ffffff .5px);
+    background-size: 10px 10px;
+}
+
+.bg-decoration {
+    background-image: url('../../images/decoration.svg');
+    background-repeat: repeat-x;
+    background-size: auto;
+    background-position: bottom center;
+    animation: pulse 10s linear infinite;
+}
+
+.scroll-snap {
+    scroll-behavior: smooth;
+    scroll-snap-align: start;
+    scroll-snap-type: mandatory;
+}
+
+@keyframes pulse {
+    0% {
+        background-position: bottom left;
+    }
+
+    100% {
+        background-position: bottom right;
+    }
+}
+
+.square {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size ease 1s;
+}
+
+.square-cover {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-size ease 1s;
+}
+
+.square:hover {
+    background-size: 140%;
+}

@@ -1,0 +1,111 @@
+ERROR - 2024-04-22 08:12:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'wp_ddi', 3306, '', 0)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#3 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#4 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#9 {main}
+CRITICAL - 2024-04-22 08:12:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM wp_posts WHERE post_status=\'publish\' AND post_type=\'post\'')
+ 3 APPPATH\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Beranda->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama\\mis\\public\\index.php')
+ERROR - 2024-04-22 08:12:36 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'wp_ddi', 3306, '', 0)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#3 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#4 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#9 {main}
+CRITICAL - 2024-04-22 08:12:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM wp_posts WHERE post_status=\'publish\' AND post_type=\'post\'')
+ 3 APPPATH\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Beranda->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama\\mis\\public\\index.php')
+ERROR - 2024-04-22 08:12:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'wp_ddi', 3306, '', 0)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#4 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Dev\ddi-lama\mis\app\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM w...')
+#3 C:\Dev\ddi-lama\mis\app\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+#4 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\Beranda->index()
+#5 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#6 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Dev\ddi-lama\mis\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\Dev\ddi-lama\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama...')
+#9 {main}
+CRITICAL - 2024-04-22 08:12:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\PostModel.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM wp_posts WHERE post_status=\'publish\' AND post_type=\'post\'')
+ 3 APPPATH\Controllers\Beranda.php(19): App\Models\PostModel->query_get_all()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Beranda->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Dev\\ddi-lama\\mis\\public\\index.php')
